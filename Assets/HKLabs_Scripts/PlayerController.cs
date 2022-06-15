@@ -155,7 +155,7 @@ namespace HKLabs
 
             Instantiate (_bulletPrefab, bulletOffset, _bulletPrefab.transform.rotation);
 
-            _playerSFX.PlayOneShot (_gunShotSound); ;
+            _playerSFX.PlayOneShot (_gunShotSound);
         }
 
         //---------------------------------------------Private Methods---------------------------------------------//
